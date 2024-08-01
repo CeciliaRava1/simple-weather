@@ -2,11 +2,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Kumbh Sans", sans-serif;
+    background-color: #E2DAD6;
 }
 
 /* Navbar section */
 .title {
-    padding: 18px;
+    padding: 14px;
     font-size: 40px;
     background-color: #6482AD;
     color: #F5EDED;
@@ -32,4 +33,36 @@ body {
 
 .fa-brands {
     padding-top: 10px;
+}
+
+/* Body section */
+p{
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input{
+    width: 290px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 12px;
+    border: 1px solid #6482AD;
+    margin-top: 20px;
+}
+
+button{
+    margin-top: 30px;
+    width: 180px;
+    height: 50px;
+    font-size: 26px;
+    border-radius: 12px;
+    border: 0px solid;
+    background-color: #6482AD;
+    color: #F5EDED;
 }
