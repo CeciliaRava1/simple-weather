@@ -36,9 +36,13 @@ body {
     padding-top: 10px;
 }
 
+.p_element{
+    font-size: 18px;
+}
+
 /* Body section */
-p{
-    font-size: 30px;
+.p-body{
+    font-size: 28px;
 }
 .container{
     display: flex;
@@ -54,11 +58,10 @@ input{
     font-size: 20px;
     border-radius: 12px;
     border: 1px solid #6482AD;
-    margin-top: 20px;
 }
 
 button{
-    margin-top: 30px;
+    margin-top: 14px;
     width: 180px;
     height: 50px;
     font-size: 26px;
@@ -66,4 +69,21 @@ button{
     border: 0px solid;
     background-color: #6482AD;
     color: #F5EDED;
+}
+
+/* Weather section */
+h2{
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+p{
+    font-size: 30px;
+}
+
+#weatherData{
+    margin-top: 30px;
+    background-color: #a8bedc;
+    padding: 1px 100px;
+    border-radius: 12px;
 }

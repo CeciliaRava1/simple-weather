@@ -31,16 +31,16 @@ function showWeatherData(data){
     nameCityInfo.textContent = `${nameCity}, ${nameCountryOfCity}`;
 
     const temperatureCityInfo = document.createElement('p');
-    temperatureCityInfo.textContent = `The temperature is: ${Math.floor(temperatureCity-difKelvin)}°C`;
+    temperatureCityInfo.textContent = `${Math.floor(temperatureCity-difKelvin)}°C`;
 
     const humidityCityInfo = document.createElement('p');
-    humidityCityInfo.textContent = `The humidity is: ${humidityCity}%`;
+    humidityCityInfo.textContent = `Humidity: ${humidityCity}%`;
 
     const iconInfo = document.createElement('img');
     iconInfo.src = `https://openweathermap.org/img/wn/${icon}@2x.png`;
 
     const descriptionCityInfo = document.createElement('p');
-    descriptionCityInfo.textContent = `The meteorological description is: ${descriptionCity}`;
+    descriptionCityInfo.textContent = `${descriptionCity}`;
 
     divWeatherData.appendChild(nameCityInfo);
     divWeatherData.appendChild(temperatureCityInfo);
