@@ -82,8 +82,10 @@ p{
 }
 
 #weatherData{
+    color: #373A40;
     margin-top: 30px;
     background-color: #a8bedc;
-    padding: 1px 100px;
+    width: 442px;
     border-radius: 12px;
+    border: 1px solid #6482AD;
 }
